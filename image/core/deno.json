@@ -1,0 +1,13 @@
+{
+  "name": "@salmidev/image-core",
+  "version": "0.1.0",
+  "license": "MIT",
+  "tasks": {
+    "dev": "deno run --watch ./src/main.ts"
+  },
+  "imports": {
+    "@img/png": "jsr:@img/png@^0.1.5",
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "exports": "./src/mod.ts"
+}
